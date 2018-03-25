@@ -15,9 +15,7 @@
     text-align: center;
 }
 
-.thumbnail {
-    border: none;
-}
+/* Home-About Page Formatting */
 
 .panel {
     margin-top: 85px;
@@ -27,10 +25,28 @@ li {
     display: inline;
 }
 
-img {
-    margin: 7px;
+.img-responsive {
+    margin: 0 auto;
 }
 
 a:link {
     text-decoration: none;
+}
+
+/* Contact Page Formatting */
+
+form {
+    margin-top: 20px;
+}
+
+
+/* Portfolio Page Formatting */
+
+.portfolio {
+    margin-top: 40px;
+}
+
+.thumbnail {
+    background-color: transparent;
+    border: none;
 }

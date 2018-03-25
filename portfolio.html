@@ -4,56 +4,127 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio - Christine Pablo</title>
+    <title>Home - Christine Pablo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css"
-    />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 
-<body>
+<body style="height: 1800px">
 
-    <div class="container">
-        
+    <div class="container" style="margin-top: 50px">
+
         <!-- Navigation -->
-
-        <!-- <body style="height:1500px"> -->
 
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
 
                 <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a class="navbar-brand" href="#">Christine Pablo</a>
                 </div>
 
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li class="active">
-                        <a href="#">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" id="myNavbar">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="active">
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
 
             </div>
         </nav>
 
         <!-- Main Content -->
 
-        
+        <div class="row">
 
-        
+            <div class="portfolio">
 
+                <!-- First Row Images -->
+                <div class="col-sm-6 col-md-4">
 
-        <!-- JavaScript CDN -->
+                    <a href="#" class="thumbnail">
+                        <img src="images/img01.jpg" alt="Project01" class="img-responsive">
+                    </a>
+
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+
+                    <a href="#" class="thumbnail">
+                        <img src="images/img02.jpg" alt="Project02" class="img-responsive">
+                    </a>
+
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+
+                    <a href="#" class="thumbnail">
+                        <img src="images/img03.jpg" alt="Project03" class="img-responsive">
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Second Row Images -->
+            <div class="col-sm-6 col-md-4">
+
+                <a href="#" class="thumbnail">
+                    <img src="images/img04.jpg" alt="Project04" class="img-responsive">
+                </a>
+
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+
+                <a href="#" class="thumbnail">
+                    <img src="images/img05.jpg" alt="Project05" class="img-responsive">
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+
+        <div class="navbar navbar-fixed-bottom footer">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <br>
+                    <h6>Copyright Christine Pablo ©2018</h6>>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- jQuery CDN code goes here -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Bootstrap JavaScript CDN goes here -->
 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    </div>
 
 </body>
 
