@@ -1,6 +1,6 @@
 .container-fluid {
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 45px;
+    padding-left: 45px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -13,4 +13,24 @@
 .navbar-fixed-bottom h6 {
     color: #9d9d9d;
     text-align: center;
+}
+
+.thumbnail {
+    border: none;
+}
+
+.panel {
+    margin-top: 85px;
+}
+
+li {
+    display: inline;
+}
+
+img {
+    margin: 7px;
+}
+
+a:link {
+    text-decoration: none;
 }
