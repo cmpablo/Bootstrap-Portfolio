@@ -6,8 +6,9 @@
 }
 
 .navbar-fixed-bottom {
-    background-color: #222;
+    background-color: rgb(34, 34, 34);
     border-color: #080808;
+    height: 70px;
 }
 
 .navbar-fixed-bottom h6 {
